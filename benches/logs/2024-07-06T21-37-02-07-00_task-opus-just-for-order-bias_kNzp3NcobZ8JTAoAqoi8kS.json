@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "status": "cancelled",
+  "eval": {
+    "task": "task_opus_just_for_order_bias",
+    "task_version": 0,
+    "task_id": "kNzp3NcobZ8JTAoAqoi8kS",
+    "run_id": "UGeZrKsvR57L3b8kuwxESE",
+    "created": "2024-07-06T21:37:02-07:00",
+    "dataset": {
+      "samples": 500,
+      "shuffled": false
+    },
+    "model": "openai/anthropic/claude-3-opus",
+    "model_base_url": "https://openrouter.ai/api/v1",
+    "task_attribs": {},
+    "task_args": {
+      "model_name": "anthropic/claude-3.5-sonnet"
+    },
+    "model_args": {},
+    "config": {},
+    "packages": {
+      "inspect_ai": "0.3.18.dev14+g53fe15a"
+    }
+  },
+  "plan": {
+    "name": "plan",
+    "steps": [
+      {
+        "solver": "generate",
+        "params": {}
+      }
+    ],
+    "config": {}
+  },
+  "stats": {
+    "started_at": "2024-07-06T21:37:02-07:00",
+    "completed_at": "2024-07-06T21:37:22-07:00",
+    "model_usage": {}
+  },
+  "logging": []
+}
